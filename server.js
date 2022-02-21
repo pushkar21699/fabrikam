@@ -5,13 +5,13 @@ var onAboutUs=function(req, res){
     res.send("Chief Mentor :Ravi Tambade");
 };
 var onDefault=function(req, res){
-    res.send("<h1>Transflower Learning Pvt. Ltd</h1>"+
+    res.send("<h1>Fabrikam Pvt. Ltd  </h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>Fabrikam is a multinational company has their 24 Offices all over world. Company wanted to build and host Information Management Solutions in web. </li>"+
+                    " <li>Company also wants to host internet public web site for their potential customers to know about products and services provided</li>"+
+                    " <li>They required to build and host intranet application for all employees to access Human Resource, Accounting and Project Management related information.</li>"+
+                    " <li>Fabrikam has public Cloud subscription to use it as Infrastructure as a Service (I-a-a-S) and Platform As A Service.</li>"+
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
